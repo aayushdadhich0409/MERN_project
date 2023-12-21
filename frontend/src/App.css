@@ -1,0 +1,326 @@
+.Nav-ul li {
+  display: inline-block;
+  padding: 4px;
+  margin: 12px;
+  /* background-color: #61dafb; */
+  /* margin:20px; */
+}
+
+.Nav-ul li a {
+  color: rgb(93, 9, 23);
+  text-decoration: none;
+}
+
+.Nav-ul {
+  background-color: #61dafb;
+  padding: 15px;
+  margin: 0px;
+}
+.nav-right {
+  text-align: right;
+}
+
+.foot {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: #61dafb;
+}
+
+/* signup */
+
+.reg,
+.product {
+  margin-left: 30%;
+}
+
+.inputbox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 316px;
+  border: 1px solid black;
+
+  background: rgba(31, 236, 255);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btnsign {
+  margin: 25px;
+  margin-top: 0px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: aqua;
+  cursor: pointer;
+}
+/* login */
+.login {
+  margin-left: 30%;
+}
+
+.logo {
+  width: 65px;
+  float: left;
+  border-radius: 33px;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+//err
+.errw {
+  color: red;
+  /* display: block;
+    margin-top: -24px;
+    margin-left: 31px;
+    font-size: 14px; */
+}
+.q {
+  color: red;
+  display: block;
+  margin-top: -24px;
+  margin-left: 31px;
+  font-size: 14px;
+}
+
+.Product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+.Product-list ul li {
+  display: inline-block;
+  border: 2px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+.Product-list ul {
+  margin: 0;
+}
+
+.log {
+  border: 2px solid green;
+  margin-right: 681px;
+  background: rgba(70, 188, 220);
+  box-shadow: 0 8px 32px 0 rgba(0, 214, 246, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.page1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 301px;
+  padding-top: 13px;
+  margin-top: -20px;
+}
+.page2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 366px;
+  padding-top: 13px;
+  margin-top: -20px;
+}
+.page3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 512px;
+  padding-top: 13px;
+  margin-top: -20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color:#0addaa;
+  padding: 20px;
+  margin: 10px;
+  width: 200px; /* Adjust the width as needed */
+  text-align: center;
+  display: inline-block;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 8px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  color: white;
+  background-color: red;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+/* Optional: Add more styles for focus and active states */
+.button:focus {
+  outline: none;
+  /* Add more styles as needed */
+}
+
+.button:active {
+  transform: translateY(12px);
+  /* Add more styles as needed */
+}
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Hover effect */
+a:hover {
+  color: #2980b9;
+}
+
+/* Optional: Add more styles for focus and active states */
+a:focus {
+  outline: none;
+  /* Add more styles as needed */
+}
+
+a:active {
+  /* Add more styles as needed */
+}
+
+.button2 {
+  display: inline-block;
+  margin-left:15px;
+  padding: 5px 8px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  border-radius: 12px;
+  color: white;
+  background-color: #02f4dd;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* CSS */
+.button-88 {
+  /* display: flex; */
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: #00ffde;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgb(236,15, 72) 0%, rgb(239,15,65) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 2em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+.logout{
+  text-align:center;
+  /* font */
+}
+
+
+.card-container {
+  perspective: 1000px;
+  width: 200px; /* Adjust the card container width as needed */
+  margin: 50px auto;
+}
+
+.card1 {
+  width: 100%;
+  height: 200px; /* Adjust the card height as needed */
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  background-color:white;
+}
+
+.card1:hover {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc; /* Adjust the border style as needed */
+}
+
+.front {
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
